@@ -1,0 +1,9 @@
+# List all of the files and folds which you do not wish to push up to GitHub
+
+.vscode
+
+.DS_store
+
+designs/
+
+
