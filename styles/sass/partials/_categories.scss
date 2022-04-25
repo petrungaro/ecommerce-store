@@ -21,7 +21,13 @@
             margin: 0 auto 20px auto;
         }
 
+        & a:hover {
+            transform: scale(0.95);
+        }
         
+        & a:focus {
+            transform: scale(0.95);
+        }
     }
 
     .itemOne{

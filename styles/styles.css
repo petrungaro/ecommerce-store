@@ -532,6 +532,14 @@ header .headerContent .contentContainer {
   border-radius: 10%;
   margin: 0 auto 20px auto;
 }
+.categoryGallery .items a:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+.categoryGallery .items a:focus {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
 .categoryGallery .itemOne {
   background-color: #ffd698;
 }
