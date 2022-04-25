@@ -471,6 +471,34 @@ a.button:focus {
   border-radius: 50%;
 }
 
+header {
+  background-color: #f8fbf3;
+  margin-bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+header .headerImgContainer {
+  width: 45%;
+}
+header .headerImgContainer img {
+  max-width: 100%;
+  display: block;
+}
+header .headerContent {
+  width: 55%;
+  color: #084b6d;
+}
+header .headerContent .contentContainer {
+  margin: 0 auto;
+  width: 65%;
+}
+
 footer {
   background-color: #084b6d;
   color: #fff;
