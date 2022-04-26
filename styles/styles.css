@@ -472,7 +472,7 @@ a.button:focus {
 }
 
 header {
-  background-color: #f8fbf3;
+  background-color: #e8f9d3;
   margin-bottom: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -544,13 +544,13 @@ header .headerContent .contentContainer {
   background-color: #ffd698;
 }
 .categoryGallery .itemTwo {
-  background-color: #f4fcff;
+  background-color: #d3f0f9;
 }
 .categoryGallery .itemThree {
-  background-color: #f8fbf3;
+  background-color: #e8f9d3;
 }
 .categoryGallery .itemFour {
-  background-color: #fff5f5;
+  background-color: #f9d3d3;
 }
 
 footer {
@@ -594,4 +594,79 @@ footer .footerNav nav a:hover {
 }
 footer .footerNav nav a:focus {
   color: white;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .headerImgContainer {
+    min-width: 100%;
+  }
+
+  .headerContent {
+    min-width: 100%;
+  }
+
+  header .headerContent .contentContainer {
+    width: 90%;
+    padding: 50px 0;
+  }
+  header .headerContent .contentContainer h3 {
+    font-size: 2rem;
+  }
+
+  .categoryGallery .items {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 10px 10px;
+  }
+
+  .categoryGallery {
+    margin: 100px 0;
+  }
+
+  footer .footerFlexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  footer .footerNav nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  footer .footerNav nav a {
+    line-height: 1.7rem;
+  }
+
+  footer .footerNav nav ul {
+    padding: 20px 0;
+    width: auto;
+  }
+  footer .footerNav nav ul h5 {
+    margin: 0 0 10px 0;
+  }
+
+  footer .footerNav nav a {
+    font-size: 1rem;
+  }
 }
