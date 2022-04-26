@@ -85,3 +85,8 @@ a {
         }
     }
 }
+
+img {
+    width: 100%;
+    display: block;
+} // ensure that image elements obey the dimensions of their parents
