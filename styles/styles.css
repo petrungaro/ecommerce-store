@@ -654,6 +654,97 @@ header .headerContent .contentContainer {
   width: 50px;
 }
 
+.mapForm .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.mapForm .wrapper .mapContainer {
+  width: 50%;
+}
+.mapForm .wrapper iframe {
+  width: 100%;
+}
+.mapForm .wrapper .formContainer {
+  width: calc(50% - 70px);
+  margin-left: 70px;
+}
+.mapForm .wrapper .contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.mapForm .wrapper .contactForm input, .mapForm .wrapper .contactForm textarea {
+  padding: 0 0 10px 5px;
+  border: none;
+  margin-bottom: 40px;
+  color: #333;
+  font-family: "Jakarta Sans";
+  border-bottom: 1px solid #eee;
+}
+.mapForm .wrapper .contactForm input::-webkit-input-placeholder, .mapForm .wrapper .contactForm textarea::-webkit-input-placeholder {
+  color: #084b6d;
+  opacity: 1;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+}
+.mapForm .wrapper .contactForm input::-moz-placeholder, .mapForm .wrapper .contactForm textarea::-moz-placeholder {
+  color: #084b6d;
+  opacity: 1;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+}
+.mapForm .wrapper .contactForm input:-ms-input-placeholder, .mapForm .wrapper .contactForm textarea:-ms-input-placeholder {
+  color: #084b6d;
+  opacity: 1;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+}
+.mapForm .wrapper .contactForm input::-ms-input-placeholder, .mapForm .wrapper .contactForm textarea::-ms-input-placeholder {
+  color: #084b6d;
+  opacity: 1;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+}
+.mapForm .wrapper .contactForm input::placeholder, .mapForm .wrapper .contactForm textarea::placeholder {
+  color: #084b6d;
+  opacity: 1;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+}
+.mapForm .wrapper .contactForm textarea {
+  min-height: 130px;
+  border: 1px solid #eee;
+  border-top: none;
+}
+.mapForm .wrapper .contactForm select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: block;
+  color: #084b6d;
+  padding: 0 0 10px 0;
+  border: none;
+  border-bottom: 1px solid #eee;
+  border-radius: 0;
+  margin-bottom: 40px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  background-color: #fff;
+  background-image: url(../assets/caret-down-solid.svg);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 20px;
+}
+
 footer {
   background-color: #084b6d;
   color: #fff;
