@@ -603,6 +603,57 @@ header .headerContent .contentContainer {
   color: #084b6d;
 }
 
+.guarantees {
+  background-color: #f9d3d3;
+  position: relative;
+}
+.guarantees h2 {
+  font-size: 2rem;
+}
+.guarantees h3 {
+  font-size: 1.5rem;
+}
+.guarantees p {
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+.guarantees::before {
+  content: "";
+  background-image: url("../assets/wave-3.svg");
+  background-position: top center;
+  background-size: 1500px 60px;
+  background-repeat: repeat-x;
+  background-color: #f9d3d3;
+  position: absolute;
+  height: 3rem;
+  left: 0;
+  right: 0;
+  top: -60px;
+}
+.guarantees ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.guarantees ul li {
+  margin: 0 20px;
+  width: calc(25% - 40px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.guarantees ul li img {
+  width: 50px;
+}
+
 footer {
   background-color: #084b6d;
   color: #fff;
